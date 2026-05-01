@@ -1,0 +1,33 @@
+# Binarios compilados
+/bin/
+/build/
+
+# Dependencias
+node_modules/
+vendor/
+
+# Entornos
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Go
+*.exe
+*.test
+*.out
+
+# React build
+dist/
