@@ -1,15 +1,28 @@
 <div align="center">
 
 ```
- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- ░  ▄▀█ █▀▀ █▀▀ █▄░█ ▀█▀   ▀█▀ ▄▀█ █░█ █▀▀ █▀█ █▄░█  ░░░░░░░░░░ ░
- ░  █▀█ █▄█ ██▄ █░▀█ ░█░   ░█░ █▀█ ▀▄▀ ██▄ █▀▄ █░▀█  ░░░░░░░░░░ ░
- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+   ▄████████    ▄██████▄     ▄████████ ███▄▄▄▄       ███     
+  ███    ███   ███    ███   ███    ███ ███▀▀▀██▄ ▀█████████▄ 
+  ███    ███   ███    █▀    ███    █▀  ███   ███    ▀███▀▀██ 
+  ███    ███  ▄███         ▄███▄▄▄     ███   ███     ███   ▀ 
+▀███████████ ▀▀███ ████▄  ▀▀███▀▀▀     ███   ███     ███     
+  ███    ███   ███    ███   ███    █▄  ███   ███     ███     
+  ███    ███   ███    ███   ███    ███ ███   ███     ███     
+  ███    █▀    ████████▀    ██████████  ▀█   █▀     ▄████▀   
+
+    ███        ▄████████ ▀█████████▄     ▄████████    ▄████████ ███▄▄▄▄   
+▀█████████▄   ███    ███   ███    ███   ███    ███   ███    ███ ███▀▀▀██▄ 
+   ▀███▀▀██   ███    ███   ███    ███   ███    █▀    ███    ███ ███   ███ 
+    ███   ▀   ███    ███  ▄███▄▄▄██▀   ▄███▄▄▄      ▄███▄▄▄▄██▀ ███   ███ 
+    ███     ▀███████████ ▀▀███▀▀▀██▄  ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███   ███ 
+    ███       ███    ███   ███    ██▄   ███    █▄  ▀███████████ ███   ███ 
+    ███       ███    ███   ███    ███   ███    ███   ███    ███ ███   ███ 
+   ▄████▀     ███    █▀  ▄█████████▀    ██████████   ███    ███  ▀█   █▀  
 ```
 
 # 🍺 AgentTavern
 
-### *Una taberna medieval donde los agentes IA van a trabajar*
+### _Una taberna medieval donde los agentes IA van a trabajar_
 
 [![Status](https://img.shields.io/badge/estado-en%20desarrollo-yellow?style=for-the-badge)](https://github.com/Jesus-MartinAnton/AgentTavern)
 [![Tech](https://img.shields.io/badge/stack-React%20%2B%20Go-61DAFB?style=for-the-badge&logo=react)](https://github.com/Jesus-MartinAnton/AgentTavern)
@@ -35,8 +48,8 @@ Imagina un "Starbucks medieval": los agentes llegan a la taberna, se sientan en 
 ║  [🧙 El Padre Claudio]   [🍺 Mesa 1]   [🍺 Mesa 2]   ║
 ║      (orquestador)      claude-001    gpt-mini-02     ║
 ║                         ┌─────────┐  ┌─────────┐      ║
-║                         │ 💻 ~··~ │  │  ?  ···  │     ║
-║                         │WORKING  │  │ WAITING  │     ║
+║                         │ 💻 ~··~ │  │  ?  ··· │     ║
+║                         │WORKING  │  │ WAITING │     ║
 ║                         └─────────┘  └─────────┘      ║
 ║                                                       ║
 ║  [🪑 Mesa Vacía]  Click para crear una nueva misión   ║
@@ -47,14 +60,14 @@ Imagina un "Starbucks medieval": los agentes llegan a la taberna, se sientan en 
 
 ## ✨ Características
 
-| Característica | Descripción |
-|---|---|
-| 🎮 **Canvas 2D Pixel Art** | Taberna interactiva renderizada en Canvas nativo |
-| 🤖 **Gestión de Agentes** | Spawn, estado, métricas y logs en tiempo real |
-| ⚔️ **Sistema de Misiones** | Crea tareas, asígnalas a agentes, sigue su progreso |
-| 💬 **Chat con El Padre Claudio** | Interfaz conversacional + quick action buttons |
-| ⚡ **Real-time vía WebSocket** | Estados y logs se actualizan al instante |
-| 🎭 **5 Estados Visuales** | Idle, Working, Waiting, Error, Assigned — cada uno con sprite distinto |
+| Característica                   | Descripción                                                            |
+| -------------------------------- | ---------------------------------------------------------------------- |
+| 🎮 **Canvas 2D Pixel Art**       | Taberna interactiva renderizada en Canvas nativo                       |
+| 🤖 **Gestión de Agentes**        | Spawn, estado, métricas y logs en tiempo real                          |
+| ⚔️ **Sistema de Misiones**       | Crea tareas, asígnalas a agentes, sigue su progreso                    |
+| 💬 **Chat con El Padre Claudio** | Interfaz conversacional + quick action buttons                         |
+| ⚡ **Real-time vía WebSocket**   | Estados y logs se actualizan al instante                               |
+| 🎭 **5 Estados Visuales**        | Idle, Working, Waiting, Error, Assigned — cada uno con sprite distinto |
 
 ---
 
@@ -62,14 +75,14 @@ Imagina un "Starbucks medieval": los agentes llegan a la taberna, se sientan en 
 
 <div align="center">
 
-| Capa | Tecnología | Por qué |
-|------|------------|---------|
-| **Frontend** | React + Tailwind CSS | Componentes UI rápidos y limpios |
-| **Rendering** | Canvas 2D nativo | Sin overhead de librerías 3D |
-| **Estado** | Zustand | Ligero, perfecto para el scope |
-| **Backend** | Go + SQLite | Rápido, compilado, fácil de desplegar |
-| **Real-time** | gorilla/websocket | WebSocket production-ready en Go |
-| **Agentes** | OpenCode | El motor de IA subyacente |
+| Capa          | Tecnología           | Por qué                               |
+| ------------- | -------------------- | ------------------------------------- |
+| **Frontend**  | React + Tailwind CSS | Componentes UI rápidos y limpios      |
+| **Rendering** | Canvas 2D nativo     | Sin overhead de librerías 3D          |
+| **Estado**    | Zustand              | Ligero, perfecto para el scope        |
+| **Backend**   | Go + SQLite          | Rápido, compilado, fácil de desplegar |
+| **Real-time** | gorilla/websocket    | WebSocket production-ready en Go      |
+| **Agentes**   | OpenCode             | El motor de IA subyacente             |
 
 </div>
 
@@ -97,6 +110,7 @@ agent-tavern/
 ```
 
 ### API REST
+
 ```
 GET    /api/v1/agents           → Lista agentes
 POST   /api/v1/agents           → Crear agente
@@ -109,6 +123,7 @@ POST   /api/v1/chat             → Mensaje al Padre Claudio
 ```
 
 ### WebSocket Events
+
 ```
 server → client:  agent:state_changed | mission:completed | agent:activity
 client → server:  chat:message | room:join | ping
@@ -138,7 +153,7 @@ Foundation       Rendering        Interactivity    Integration
 
 Este proyecto nació de una simple pregunta:
 
-> *¿Y si gestionar agentes IA fuera tan divertido como jugar un RPG?*
+> _¿Y si gestionar agentes IA fuera tan divertido como jugar un RPG?_
 
 AgentTavern es un proyecto personal de **aprendizaje y portfolio**. Es mi propia visión de cómo debería verse una interfaz de orquestación de agentes: con personalidad, con narrativa y con pixel art.
 
@@ -155,6 +170,6 @@ AgentTavern es un proyecto personal de **aprendizaje y portfolio**. Es mi propia
 
 **Hecho con 🍺 y pixel art**
 
-*[Jesus-MartinAnton](https://github.com/Jesus-MartinAnton)*
+_[Jesus-MartinAnton](https://github.com/Jesus-MartinAnton)_
 
 </div>
